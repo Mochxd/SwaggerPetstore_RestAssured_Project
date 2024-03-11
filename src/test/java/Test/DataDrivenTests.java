@@ -13,7 +13,7 @@ public class DataDrivenTests {
     private User userPlayLoad = new User();
 
     @Test(priority = 1, dataProvider = "Data", dataProviderClass = DataProviders.class)
-    public void testPostUser(String ID, String userName, String fName, String lName,  String email, String password, String phone) {
+    public void testAddUserWithExternalData(String ID, String userName, String fName, String lName,  String email, String password, String phone) {
         userPlayLoad.setId(Integer.parseInt(ID));
         userPlayLoad.setUsername(userName);
         userPlayLoad.setFirstName(fName);
@@ -26,7 +26,7 @@ public class DataDrivenTests {
         assertEquals(response.getStatusCode(),200);
     }
     @Test(priority = 2, dataProvider = "UserNames", dataProviderClass = DataProviders.class)
-    public void testDeleteUser(String userName) {
+    public void testDeleteUsers(String userName) {
         Response response = userPointCRUD.deleteUser(userName);
         response.then().log().all();
         assertEquals(response.getStatusCode(),200);

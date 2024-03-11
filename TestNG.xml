@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests Suite">
+    <test verbose="2" preserve-order="true" name="C:\Users\zas\ProjectNonCommerceWebsite\src\test">
+        <classes>
+            <class name="Test.UserTests">
+                <methods>
+                    <include name="testCreateUser"/>
+                    <include name="testGetUser"/>
+                    <include name="testUpdateUser"/>
+                    <include name="testDeleteUser"/>
+                </methods>
+            </class>
+            <class name="Test.DataDrivenTests">
+                <methods>
+                    <include name="testAddUserWithExternalData"/>
+                    <include name="testDeleteUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
