@@ -16,7 +16,8 @@ This project is a test automation framework designed to interact with a website'
 <a href="https://selenium.dev"><img src="https://selenium.dev/images/selenium_logo_square_green.png" width="40" height="40" alt="Selenium"/></a>
 <a href="https://testng.org/"><img src="https://github.com/Mochxd/TAU_InternetDemoWebsite/assets/122634626/86a31183-1950-4cf4-bbbe-c1c1d6dc2567" width="40" height="40" alt="TestNG"/></a>
 <a href="https://rest-assured.io/"><img src="https://github.com/Mochxd/SwaggerPetstore_RestAssured_Project/assets/122634626/735af872-df76-4f8e-84ff-28795f8d28f4" width="40" height="40" alt="RestAssured"/></a>
-<a href="https://allurereport.org/"><img src="https://github.com/Mochxd/TestAutomation_Non_Commerce/assets/122634626/1aa8b511-e2db-45b1-b0b5-0ae7fd11f8b6" width="40" height="40" alt="TestNG"/></a>
+<a href="https://allurereport.org/"><img src="![allure](https://github.com/Mochxd/SwaggerPetstore_RestAssured_Project/assets/122634626/fe07103e-be9b-4b9f-9164-e7509d90f56f)
+" width="40" height="40" alt="allure"/></a>
 
 ## Prerequisites
 
